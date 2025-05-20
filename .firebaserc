@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "artificalproject"
-  }
+    "default": "ai-sales-46e42"
+  },
+  "targets": {},
+  "etags": {}
 }

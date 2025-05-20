@@ -9,9 +9,9 @@ const ChooseSection = () => {
         <div className="inner-container">
           {/* Section Title */}
           <div className="sec-title light centered">
-            <div className="sec-title_title">why chose us</div>
+            <div className="sec-title_title">Why Choose us</div>
             <h2 className="sec-title_heading">
-              Reason to chose our <br /> <span>platform</span>
+            Our Custom Solution?
             </h2>
           </div>
 
@@ -27,10 +27,10 @@ const ChooseSection = () => {
                   <i className="fa-brands fa-instagram fa-sm" />
                 </div>
                 <div className="counter-block_one-count">
-                  <span className="odometer" data-count="8000">8000</span><i>+</i>
+                  <span className="odometer" data-count="8000">Tailored to Your Business</span>
                 </div>
                 <div className="counter-block_one-text">
-                  More than 8,000 customers have experimented with Kafkai
+                 We understand that every business is unique. Our team collaborates closely with you to design and deploy a chatbot solution that aligns perfectly with your sales processes and objectives.
                 </div>
               </div>
             </div>
