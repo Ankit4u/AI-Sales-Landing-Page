@@ -845,6 +845,7 @@
 	border-radius: 6px;
 	padding: 40px 30px 38px;
 	background-color: rgba(var(--white-color-rgb), 0.10);
+	    height: 100%;
 }
 
 .counter-block_one-inner:hover .counter-block_one-icon {
@@ -862,7 +863,7 @@
 .counter-block_one-count {
 	position: relative;
 	line-height: 1em;
-	font-size: 20px;
+	font-size: 45px;
 	font-weight: 600;
 	margin-top: 22px;
 	color: var(--white-color);

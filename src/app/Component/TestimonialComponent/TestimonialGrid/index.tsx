@@ -6,47 +6,65 @@ const testimonials = [
   {
     image: '/assets/images/resource/author-2.png',
     name: 'Larry K. Lund',
-    role: 'Social Media Manger',
+    role: 'AI Solutions Consultant',
+    content:
+      'The AI-powered lead scoring tool has transformed how we identify high-intent prospects. We’re closing deals 40% faster now!',
   },
   {
     image: '/assets/images/resource/author-3.png',
     name: 'Marian R. Vieira',
-    role: 'Social Media Manger',
+    role: 'Sales Strategy Analyst',
+    content:
+      'Our team used to waste hours on low-conversion leads. Thanks to the predictive AI engine, we now focus only on quality prospects.',
   },
   {
     image: '/assets/images/resource/author-4.png',
     name: 'Bob E. Wiggins',
-    role: 'Social Media Manger',
+    role: 'CRM Automation Specialist',
+    content:
+      'Integrating AI into our CRM streamlined the sales pipeline. Follow-ups, reminders, and customer insights — all automated and smart!',
   },
   {
-    image: '/assets/images/resource/author-8.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Cameron Williamson',
-    role: 'Web Designer',
+    role: 'Sales Enablement Manager',
+    content:
+      'The AI chatbot doesn’t just answer queries — it qualifies leads 24/7. Our inbound conversion rate increased by 60% in just 3 weeks.',
   },
   {
-    image: '/assets/images/resource/author-9.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Ralph Edwards',
-    role: 'Nursing Assistant',
+    role: 'AI Sales Coach',
+    content:
+      'With real-time analytics and speech-to-text coaching, our reps get actionable feedback after every call. Training time reduced by half!',
   },
   {
-    image: '/assets/images/resource/author-10.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Brooklyn Simmons',
-    role: 'Medical Assistant',
+    role: 'Account Executive',
+    content:
+      'Every proposal I send now uses AI-generated personalization. Clients notice the detail — and we’ve seen more callbacks than ever!',
   },
   {
-    image: '/assets/images/resource/author-11.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Kristin Watson',
-    role: 'Dog Trainer',
+    role: 'Enterprise Sales Lead',
+    content:
+      'Our AI-powered pipeline forecast has been over 90% accurate. It’s a game-changer for setting realistic monthly targets.',
   },
   {
-    image: '/assets/images/resource/author-12.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Cody Fisher',
-    role: 'President of Sales',
+    role: 'VP of Sales Operations',
+    content:
+      'From prospecting to closing, AI has removed guesswork from our process. We’ve cut costs and increased sales velocity at the same time.',
   },
   {
-    image: '/assets/images/resource/author-13.png',
+    image: '/assets/images/resource/author-4.png',
     name: 'Dianne Russell',
-    role: 'Marketing Coordinator',
+    role: 'Marketing & Sales Integrator',
+    content:
+      'The synergy between our AI-driven marketing and sales tools means leads are nurtured smarter and converted quicker.',
   },
 ];
 
@@ -69,14 +87,11 @@ export default function AllTestimonial() {
                     ))}
                 </div>
                 <div className="testimonial-block_one-text">
-                  Lorem ipsum amet consectetur adipiscing elit Ut et massa mi.
-                  Aliquam in hendrerit <span>Pellentesque sit amet</span>{' '}
-                  sapien fringilla, mattis ligula consectetur, ultrices mauris.
-                  Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                  {testimonial.content}
                 </div>
                 <div className="testimonial-block_one-author_box">
                   <div className="testimonial-block_one-author-image">
-                    <img src={testimonial.image} alt="" />
+                    <img src={testimonial.image} alt={testimonial.name} />
                   </div>
                   {testimonial.name} <span>{testimonial.role}</span>
                 </div>

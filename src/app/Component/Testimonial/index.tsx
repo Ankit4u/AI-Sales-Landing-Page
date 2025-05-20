@@ -18,6 +18,8 @@ const TestimonialSection = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 768,
@@ -45,7 +47,7 @@ const TestimonialSection = () => {
           <div className="sec-title centered">
             <div className="sec-title_title">Testimonials</div>
             <h2 className="sec-title_heading">
-              What our respectable <br /> <span>clients says</span>
+              Success Stories<br /> <span>Proven Impact</span>
             </h2>
           </div>
 
@@ -61,15 +63,13 @@ const TestimonialSection = () => {
                   <span className="fa fa-star"></span>
                 </div>
                 <div className="testimonial-block_one-text">
-                  Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit{' '}
-                  <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris.
-                  Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                  After implementing the custom chatbot solution, our lead conversion rate increased by 35%, and our sales cycle shortened significantly.
                 </div>
                 <div className="testimonial-block_one-author_box">
                   <div className="testimonial-block_one-author-image">
                     <Image src={author2} alt="Author 2" />
                   </div>
-                  Larry K. Lund <span>Social Media Manger</span>
+                  Jane Doe<span>Sales Director at XYZ Corp </span>
                 </div>
               </div>
             </div>
@@ -85,15 +85,14 @@ const TestimonialSection = () => {
                   <span className="fa fa-star"></span>
                 </div>
                 <div className="testimonial-block_one-text">
-                  Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit{' '}
-                  <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris.
-                  Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                  “The personalized approach ensured the chatbot not only matched our brand voice but also exceeded customer expectations with seamless, engaging conversations.”
                 </div>
+
                 <div className="testimonial-block_one-author_box">
                   <div className="testimonial-block_one-author-image">
                     <Image src={author3} alt="Author 3" />
                   </div>
-                  Marian R. Vieira <span>Social Media Manger</span>
+                  John Smith <span> Marketing Manager at ABC Ltd </span>
                 </div>
               </div>
             </div>
@@ -109,15 +108,76 @@ const TestimonialSection = () => {
                   <span className="fa fa-star"></span>
                 </div>
                 <div className="testimonial-block_one-text">
-                  Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit{' '}
-                  <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris.
-                  Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                  The integration process was smooth, and the support team was incredibly responsive. We've seen a notable boost in customer satisfaction since deploying the chatbot
                 </div>
                 <div className="testimonial-block_one-author_box">
                   <div className="testimonial-block_one-author-image">
                     <Image src={author4} alt="Author 4" />
                   </div>
-                  Bob E. Wiggins <span>Social Media Manger</span>
+                  Amit Verma<span>Customer Experience Lead at LMN Solutions</span>
+                </div>
+              </div>
+            </div>
+            {/* Slide 4 */}
+            <div className="testimonial-block_one">
+              <div className="testimonial-block_one-inner">
+                <div className="testimonial-block_one-rating">
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                </div>
+                <div className="testimonial-block_one-text">
+                  Thanks to the AI-driven interactions, our support tickets dropped by nearly 40%, freeing up our team to focus on complex queries.
+                </div>
+                <div className="testimonial-block_one-author_box">
+                  <div className="testimonial-block_one-author-image">
+                    <Image src={author4} alt="Author 4" />
+                  </div>
+                  Ritika Sharma<span>Head of Customer Support at QRS Tech</span>
+                </div>
+              </div>
+            </div>
+            {/* Slide 5 */}
+            <div className="testimonial-block_one">
+              <div className="testimonial-block_one-inner">
+                <div className="testimonial-block_one-rating">
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                </div>
+                <div className="testimonial-block_one-text">
+                  We were amazed by how quickly the chatbot adapted to our workflows. Within weeks, it became an integral part of our customer journey.
+                </div>
+                <div className="testimonial-block_one-author_box">
+                  <div className="testimonial-block_one-author-image">
+                    <Image src={author4} alt="Author 4" />
+                  </div>
+                  Manav Patel<span>Product Manager at DeltaSoft</span>
+                </div>
+              </div>
+            </div>
+            {/* Slide 6 */}
+            <div className="testimonial-block_one">
+              <div className="testimonial-block_one-inner">
+                <div className="testimonial-block_one-rating">
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                  <span className="fa fa-star"></span>
+                </div>
+                <div className="testimonial-block_one-text">
+                  From onboarding to optimization, everything was seamless. The chatbot not only improved user engagement but also helped us gather valuable insights.
+                </div>
+                <div className="testimonial-block_one-author_box">
+                  <div className="testimonial-block_one-author-image">
+                    <Image src={author4} alt="Author 4" />
+                  </div>
+                  Neha Kapoor<span>Digital Strategy Lead at BrightEdge Solutions</span>
                 </div>
               </div>
             </div>

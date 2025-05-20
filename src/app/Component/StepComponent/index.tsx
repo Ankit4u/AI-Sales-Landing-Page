@@ -21,11 +21,11 @@ const StepsSection = () => {
             <span className="dot-two"></span>
           </div>
 
-          {/* Sec Title */}
+          {/* Section Title */}
           <div className="sec-title">
             <div className="sec-title_title">How its work</div>
             <h2 className="sec-title_heading">
-              Braine <span>typically operate</span> in <br /> a three steps
+              Customized Implementation <br />Process
             </h2>
           </div>
 
@@ -39,15 +39,14 @@ const StepsSection = () => {
           </div>
 
           <div className="row clearfix">
-            {/* Step 1 */}
+            {/* Step 1 - Left */}
             <div className="column col-lg-6 col-md-12 col-sm-12">
               <div className="step-block_one">
                 <div className="step-block_one-inner">
                   <div className="step-block_one-steps">step 01</div>
-                  <h5 className="step-block_one-title">Algorithm processing</h5>
+                  <h5 className="step-block_one-title">Discovery & Consultation</h5>
                   <div className="step-block_one-text">
-                    Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                    massa mi. Aliquam in hendrerit urna..
+                    We begin by understanding your business goals, existing systems, and specific requirements.
                   </div>
                   <div className="step-block_one-content">
                     <div className="image">
@@ -63,15 +62,14 @@ const StepsSection = () => {
               </div>
             </div>
 
-            {/* Step 2 and 3 */}
+            {/* Step 2 - Right */}
             <div className="column col-lg-6 col-md-12 col-sm-12">
               <div className="step-block_one">
                 <div className="step-block_one-inner">
                   <div className="step-block_one-steps">step 02</div>
-                  <h5 className="step-block_one-title">Input & data gathering</h5>
+                  <h5 className="step-block_one-title">Solution Design</h5>
                   <div className="step-block_one-text">
-                    Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                    massa mi. Aliquam in hendrerit urna..
+                    Our team crafts a tailored chatbot strategy, selecting the appropriate AI models and designing conversation flows that resonate with your audience.
                   </div>
                   <div className="step-block_one-content">
                     <div className="image">
@@ -85,16 +83,18 @@ const StepsSection = () => {
                   </div>
                 </div>
               </div>
+            </div>
 
+            {/* Step 3 - Left */}
+            <div className="column col-lg-6 col-md-12 col-sm-12">
               <div className="step-block_one">
                 <div className="step-block_one-inner">
                   <div className="step-block_one-steps">step 03</div>
                   <h5 className="step-block_one-title">
-                    Content generation & refinement
+                    Development & Integration
                   </h5>
                   <div className="step-block_one-text">
-                    Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                    massa mi. Aliquam in hendrerit urna..
+                    We develop the chatbot solution, integrating it seamlessly with your current platforms and ensuring it complements your existing workflows.
                   </div>
                   <div className="step-block_one-content">
                     <div className="image">
@@ -109,6 +109,56 @@ const StepsSection = () => {
                 </div>
               </div>
             </div>
+
+            {/* Step 4 - Right */}
+            <div className="column col-lg-6 col-md-12 col-sm-12">
+              <div className="step-block_one">
+                <div className="step-block_one-inner">
+                  <div className="step-block_one-steps">step 04</div>
+                  <h5 className="step-block_one-title">Testing & Optimization</h5>
+                  <div className="step-block_one-text">
+                    Rigorous testing ensures reliability and effectiveness. We fine-tune the chatbot based on feedback and performance metrics.
+                  </div>
+                  <div className="step-block_one-content">
+                    <div className="image">
+                      <Image
+                        src="/assets/images/resource/step-4.png"
+                        alt="Step 4"
+                        width={400}
+                        height={300}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Empty left column to push Step 5 to right */}
+            <div className="column col-lg-6 col-md-12 col-sm-12"></div>
+
+            {/* Step 5 - Right */}
+            <div className="column col-lg-6 col-md-12 col-sm-12">
+              <div className="step-block_one">
+                <div className="step-block_one-inner">
+                  <div className="step-block_one-steps">step 05</div>
+                  <h5 className="step-block_one-title">Deployment & Training</h5>
+                  <div className="step-block_one-text">
+                    Upon deployment, we provide comprehensive training to your team, ensuring they can leverage the chatbot's capabilities fully.
+                  </div>
+                  <div className="step-block_one-content">
+                    <div className="image">
+                      <Image
+                        src="/assets/images/resource/step-5.png"
+                        alt="Step 5"
+                        width={400}
+                        height={300}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

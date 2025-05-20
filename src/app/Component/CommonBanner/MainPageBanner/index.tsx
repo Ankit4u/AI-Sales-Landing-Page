@@ -43,7 +43,7 @@ const SliderComponent = () => {
                   <div className="slider-one_content-inner">
                     <div className="slider-one_title">
                       <i>
-                        <img src="/assets/images/main-slider/hand.png" alt="Hand Icon" />
+                        <Image src="/assets/images/main-slider/hand.png" alt="Hand Icon" width={30} height={30} />
                       </i>{' '}
                       AI makes content fast & easy
                     </div>
@@ -51,14 +51,14 @@ const SliderComponent = () => {
                       {index === 0
                         ? 'Transform Cold Leads '
                         : index === 1
-                          ? 'Primary Call-to-Action (CTA)'
-                          : ''}
+                        ? 'Primary Call-to-Action (CTA)'
+                        : ''}
                       <span>
                         {index === 0
                           ? 'into Conversions'
                           : index === 1
-                            ? ''
-                            : 'Visual Element'}
+                          ? ''
+                          : 'Visual Element'}
                       </span>
                       {index === 2 && ' Today'}
                     </h1>
@@ -66,8 +66,8 @@ const SliderComponent = () => {
                       {index === 0
                         ? 'Our bespoke AI-driven chatbot solutions are designed to re-engage prospects, automate lead nurturing, and accelerate your sales pipeline—all tailored to your unique business needs.'
                         : index === 1
-                          ? ' Request a Personalized Demo'
-                          : 'An engaging illustration or animation showcasing the chatbot interacting across various channels (e.g., email, WhatsApp, website chat), emphasizing customization and integration.'}
+                        ? ' Request a Personalized Demo'
+                        : 'An engaging illustration or animation showcasing the chatbot interacting across various channels (e.g., email, WhatsApp, website chat), emphasizing customization and integration.'}
                     </div>
                     <div className="slider-one_button d-flex align-items-center flex-wrap">
                       <a href="about.html" className="template-btn btn-style-one">
@@ -94,7 +94,7 @@ const SliderComponent = () => {
                   <div className="slider-one_image-outer">
                     <div className="slider-one_author">
                       <i>
-                        <img src="/assets/images/main-slider/icon-2.png" alt="Icon 2" />
+                        <Image src="/assets/images/main-slider/icon-2.png" alt="Icon 2" width={30} height={30} />
                       </i>
                       <h5 className="slider-one_author-name">Sara Ven</h5>
                       <div className="slider-one_author-text">Social media manager</div>
